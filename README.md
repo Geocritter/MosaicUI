@@ -1,0 +1,1 @@
+This is for the time being strictly a web UI for the Google Earth Engine web API. This will allow users to import a shapfile of a target region of interest, select a time period of observation, and the application will export mosaics of their satellite of choice in set-time intervals within the given period of observations.
