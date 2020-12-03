@@ -1,6 +1,6 @@
 // Dependables
 import React from 'react';
-import './Home.css';
+import './Intro.css';
 
 
 
@@ -8,11 +8,11 @@ function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <h1>
             MosUI
-        </p>
+        </h1>
         <a>
-            Simple UI tool to extract images from GEE
+            User Interface for Google Earth Engine
         </a>
         
       </header>

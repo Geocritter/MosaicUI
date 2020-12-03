@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 // Components
-import Home from './components/Home/Home';
+import Intro from './components/Intro/Intro';
+import Home from './components/RingOfFire/Home/Home';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <header className="App-header">
         <Router>
                 <Switch>
-                    <Route path='/' exact component={Home} />
+                    <Route path='/' exact component={Intro} />
+                    <Route path='/mosui' exact component={Home} />
                 </Switch>
         </Router>
         

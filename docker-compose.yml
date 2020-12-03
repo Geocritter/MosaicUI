@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  react:
+    build:
+      context: ./mosui
+      dockerfile: Dockerfile
+    volumes:
+      - ./mosui:/app
+    ports:
+      - "3001:3000"
