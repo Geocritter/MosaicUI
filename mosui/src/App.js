@@ -10,6 +10,7 @@ import Home from './components/RingOfFire/Home/Home';
 
 
 function App() {
+    
   return (
     <div className="App">
       <header className="App-header">

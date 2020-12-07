@@ -1,4 +1,4 @@
-FROM node:13.10
+FROM node:15-alpine
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ RUN npm install react-scripts -g
 
 RUN npm install @material-ui/core -g
 RUN npm install @material-ui/styles -g
-RUN npm install @google/earthengine
+RUN npm install --save @google/earthengine
 
 
 

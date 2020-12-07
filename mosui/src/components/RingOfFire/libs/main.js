@@ -1,3 +1,4 @@
+
 // Functions
 var addNDVI2 = function(image) {
     var ndvi = image.normalizedDifference(['B8', 'B4']).rename('NDVI');
@@ -128,6 +129,7 @@ var counter = 0
 // landsat 8 
 // Fetch images from GEE and store them in their respective collections
 startFunc = () => {
+    ee.initialize();
     for (var i = base; i <= cap; i++) {
         sDate = i.toString()+start
         eDate = i.toString()+end
@@ -186,3 +188,5 @@ startFunc = () => {
         }
     }
 }
+
+export default startFunc;
