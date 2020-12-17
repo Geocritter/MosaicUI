@@ -4,3 +4,6 @@ This project is currently a work-in-progress, and will be updated as work progre
 
 This project showcases primarily the fundamentals of setting up a web application in a dockerized environment,
 showcasing dockerfiles, and utlizing Docker-Compose to launch all containers. 
+
+Please consult the Docker documentation to launch this application:
+https://docs.docker.com/compose/gettingstarted/
