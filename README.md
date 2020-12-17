@@ -1,1 +1,6 @@
-This is for the time being strictly a web UI for the Google Earth Engine web API. This will allow users to import a shapfile of a target region of interest, select a time period of observation, and the application will export mosaics of their satellite of choice in set-time intervals within the given period of observations.
+This is a sample JavaScript application showcasing the previous Google Earth Engine scripts found here:
+https://github.com/Geocritter/MOSAIC_LANDSAT-SENTINEL/tree/master
+This project is currently a work-in-progress, and will be updated as work progressess. 
+
+This project showcases primarily the fundamentals of setting up a web application in a dockerized environment,
+showcasing dockerfiles, and utlizing Docker-Compose to launch all containers. 
